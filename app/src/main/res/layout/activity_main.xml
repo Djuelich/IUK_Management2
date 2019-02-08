@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/IUK_TextLogo"
+        android:layout_width="603dp"
+        android:layout_height="82dp"
+        android:gravity="center"
+        android:text="IUK Management"
+        android:textSize="60dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="\u00a9 Dominik Jülich 2019"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="376dp" />
+</android.support.constraint.ConstraintLayout>
